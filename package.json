@@ -5,6 +5,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "start": "pnpm build && node dist/src/index.js",
+    "start:dev": "ts-node-dev src/index.ts",
     "build": "tsc",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
@@ -32,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "eslint": "^8.22.0",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.4"
   },
   "dependencies": {
