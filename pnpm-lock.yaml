@@ -1,0 +1,35 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/module-alias': ^2.0.1
+  '@types/node': ^18.7.3
+  module-alias: ^2.2.2
+  typescript: ^4.7.4
+
+dependencies:
+  module-alias: 2.2.2
+
+devDependencies:
+  '@types/module-alias': 2.0.1
+  '@types/node': 18.7.3
+  typescript: 4.7.4
+
+packages:
+
+  /@types/module-alias/2.0.1:
+    resolution: {integrity: sha512-DN/CCT1HQG6HquBNJdLkvV+4v5l/oEuwOHUPLxI+Eub0NED+lk0YUfba04WGH90EINiUrNgClkNnwGmbICeWMQ==}
+    dev: true
+
+  /@types/node/18.7.3:
+    resolution: {integrity: sha512-LJgzOEwWuMTBxHzgBR/fhhBOWrvBjvO+zPteUgbbuQi80rYIZHrk1mNbRUqPZqSLP2H7Rwt1EFLL/tNLD1Xx/w==}
+    dev: true
+
+  /module-alias/2.2.2:
+    resolution: {integrity: sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==}
+    dev: false
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
